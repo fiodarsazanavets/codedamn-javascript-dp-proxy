@@ -1,6 +1,6 @@
-const DataServiceProxy = require('./dataServiceProxy.js');
+const DataService = require('./dataService.js');
 
-var dataService = new DataServiceProxy();
+var dataService = new DataService();
 dataService.insertData('item 1');
 dataService.insertData('item 2');
 dataService.insertData('item 3');
